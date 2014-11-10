@@ -1,0 +1,543 @@
+#joli {
+	clear:both;
+	color:#FFF8DC !important;
+	font-size:0px !important;
+}
+
+body {
+	font-family:serif;
+	font-size: 14px;
+	background-color: black;
+}
+
+#page{
+	position:relative;
+	left:50%;
+	margin-left:-450px;
+   width: 900px;
+   float: left;
+   padding-bottom:50px;
+}
+
+h1{
+    position:relative;
+	 left:50%;
+	 margin-left:-450px;
+    width: 900px;
+    height: 100px;
+    font-size: 0px;
+    background: url("banniere.png") right;
+	 border-top: solid 10px black ;
+	 border-bottom: solid 10px black ;
+}
+
+a {
+    text-decoration: none;
+    color: #800000;
+}
+
+a:hover {
+	color:red;
+}
+
+/*a:hover:after {content: "]";}
+a:hover:before {content: "[";}*/
+
+img{
+    max-width: 100px;
+}
+
+/* MENU */
+
+#menu{
+	 position: relative;
+    float: left;
+    width: 200px;
+    background-color:#ffebcd 	;/*#FFF8DC;*/
+    border-right: solid 1px #800000;
+    border-left: solid 1px #800000;
+    border-bottom: solid 1px #800000;
+}
+
+#menu dl{
+    padding: 0;
+    margin: 0;
+    padding-bottom:10px;
+}
+
+#menu dt{
+	width: 200px;
+	height: 25px;
+   font-size: 0px;
+	border-bottom: solid 1px black;
+	background-color:#B82222;
+}
+
+#menugeneral{ 
+   background: url("general.png") right;
+}
+
+#menuvous, #menupolitique, #menubanque, #menuadministration, #menuclyo, #menuimmobilier{ 
+   margin-top:10px;
+   border-top: solid 1px black;
+}
+
+#menuvous { 
+	background: url("vous.png") right;
+}
+
+#menupolitique{ 
+   background: url("politique.png") right;
+}
+
+#menubanque{ 
+	background: url("banque.png") right;
+}
+
+#menuimmobilier{ 
+   background: url("immobilier.png") right;
+}
+
+#menuadministration{ 
+    background: url("administration.png") right;
+}
+
+#menuclyo{ 
+    background: url("clyo.png") right;
+}
+
+#menu dd{
+	 text-align:center;
+    font-size:14px;
+    padding: 0;
+    margin: 0;
+}
+
+
+/*CONTENT*/
+ 
+#content{
+    position: relative;
+    float: right;
+    width: 685px;
+    background-color:#FFF8DC;
+    padding-bottom:20px;
+    border: solid 1px #800000;
+}
+
+#content h2{
+    margin: 10px 20px;
+    text-align: left;
+    color:#B82222;
+    /*background-color:#FFCC33;*/
+    font-size:20px;
+}
+
+#content div {
+    margin: 20px;
+    margin-top: 10px;
+}
+
+#content div h3{
+    width: 100%;
+    margin-top: 0px;
+    text-align: left;
+    color:#B82222;
+    border-bottom:solid 1px #B82222;
+    /*background-color:#FFCC33;*/
+    font-style:italic;
+    font-size:14px;
+}
+
+#content div h4{
+    width: 100%;
+    margin-top: 0px;
+    text-align: left;
+    color:#B82222;
+    /*border-bottom:solid 1px #B82222;*/
+    /*background-color:#FFCC33;*/
+    /*font-style:italic;*/
+    font-size:14px;
+}
+
+#content div div{
+    border: none;
+}
+
+#content .form_table{
+    border: none;
+}
+
+#content .form_table td{
+    border: none;
+    overflow: hidden;
+}
+
+/* Profil */
+
+#profil {
+}
+
+#profil_photo {
+	float:left;
+	width:80px;
+}
+
+#profil_infos {
+	margin-top:-10px !important;
+	float:left;
+	width:450px;
+}
+
+#profil_infos dl {
+	font-size:16px;
+}
+
+#profil_infos dt {
+	margin-top:10px;
+	font-weight:bold;
+	vertical-align:center;
+}
+
+#profil_infos dd {
+	margin-left:0px;
+}
+
+/* comptes */
+
+#comptes {
+	clear:both
+}
+
+#liste_compte {
+	border:solid 1px #B82222;
+	font-size:14px;
+	width:100%;
+	border-collapse:collapse;
+}
+
+#liste_compte th {
+	background-color:#FFCC33;
+	border-bottom:solid 1px #B82222;
+}
+
+#liste_compte td {
+	text-align:center;	
+}
+
+#liste_compte tr {
+}
+
+#liste_compte td.pair, #liste_compte tr.pair td {
+
+}
+
+#liste_compte td.impair, #liste_compte tr.impair td {
+	background-color:#ffebcd 	;
+}
+
+/*formulaires*/
+
+form table.form_table {
+	font-size:14px;
+}
+
+form table.form_table tr th {
+	font-weight:bold;
+	text-align:right;
+	padding-right:10px;
+	width:200px;
+	vertical-align:top;
+}
+
+form table.form_table tr td .button {
+	width:150px;
+}
+
+
+form table.form_table tr td input,form table.form_table tr td textarea, form table.form_table tr td select  {
+	width:250px;
+}
+
+form table.form_table tr td textarea {
+	height:100px;
+	font-size:14px;
+}
+
+form table tr td input.checkbox {
+	width:16px;
+	height:16px;
+}
+
+
+/* liste des clones*/
+
+table.liste_perso_complete {
+	border:solid 1px #B82222;
+	font-size:14px;
+	border-collapse:collapse;
+	width:100%;
+	margin-bottom:20px;
+}
+
+table.liste_perso_complete th {
+	background-color:#FFCC33;
+	border-bottom:solid 1px #B82222;
+}
+
+table.liste_perso_complete tr td {
+	border:solid 1px #B82222;
+	padding:5px;
+}
+
+table.liste_perso_complete tr td img {
+	width:100%;
+}
+
+table.liste_perso_complete select, table.liste_perso_complete optgroup {
+	font-size:12px;
+}
+
+table.liste_perso_complete tr.pair td {
+}
+
+table.liste_perso_complete tr.impair td{
+	background-color:#ffebcd 	;
+}
+
+table.liste_perso_complete tr td.photo {
+	width:100px;
+}
+
+/* liste des services publics */
+
+#liste_services_publics {
+	border:solid 1px #B82222;
+	font-size:14px;
+	width:100%;
+	border-collapse:collapse;
+}
+
+#liste_services_publics  th {
+	background-color:#FFCC33;
+	border-bottom:solid 1px #B82222;
+}
+
+#liste_services_publics  td {
+	text-align:center;	
+}
+
+#liste_services_publics  tr {
+}
+
+#liste_services_publics tr.pair td {
+
+}
+
+#liste_services_publics tr.impair td {
+	background-color:#ffebcd 	;
+}
+
+#liste_services_publics tr td form select {
+	width:100px;
+}
+
+/*Détails*/
+
+.ville {
+	font-variant:small-caps;
+}
+
+.annee {
+	font-variant:small-caps;
+}
+
+.nom {
+	font-variant:small-caps;
+}
+
+.important {
+	color:blue ;
+	font-weight:bold;
+	font-size:125%;
+}
+
+address {
+	display:inline;
+}
+
+cite {
+	margin-left:50px;
+}
+
+/* Office des revenus */
+
+#activite dl dt, #objectif dl dt {
+	font-weight:bold;
+}
+
+#activite dl dd {
+}
+
+
+table.actifs {
+	border:solid 1px #B82222;
+	font-size:14px;
+	width:100%;
+	border-collapse:collapse;
+}
+
+table.actifs th {
+	background-color:#FFCC33;
+	border-bottom:solid 1px #B82222;
+}
+
+table.actifs td {
+	text-align:center;	
+}
+
+table.actifs tr {
+}
+
+table.actifs tr.pair td {
+
+}
+
+table.actifs tr.impair td {
+	background-color:#ffebcd 	;
+}
+
+/*formulaires*/
+
+form table.form_table {
+	font-size:14px;
+}
+
+
+/*admin*/
+
+dl.liste_droit {
+
+}
+
+dl.liste_droit dt {
+	font-weight:bold;
+}
+
+#liste_ip {
+	border:solid 1px #B82222;
+	font-size:14px;
+	width:100%;
+	border-collapse:collapse;
+}
+
+#liste_ip th {
+	background-color:#FFCC33;
+	border-bottom:solid 1px #B82222;
+}
+
+#liste_ip td {
+	text-align:center;	
+}
+
+#liste_ip tr {
+}
+
+#liste_ip tr.pair td {
+
+}
+
+#liste_ip tr.impair td {
+	background-color:#ffebcd 	;
+}
+
+
+/* biens */
+
+table.liste_biens {
+	border:solid 1px #B82222;
+	font-size:14px;
+	width:100%;
+	border-collapse:collapse;
+}
+
+table.liste_biens th {
+	background-color:#FFCC33;
+	border-bottom:solid 1px #B82222;
+}
+
+table.liste_biens th.adresse {
+	width:100%;
+}
+
+table.liste_biens td {
+	border:solid 1px #B82222;
+	text-align:left;
+	padding:5px;
+}
+
+table.liste_biens tr {
+}
+
+table.liste_biens tr.pair td {
+
+}
+
+table.liste_biens tr.impair td {
+	background-color:#ffebcd 	;
+}
+
+table.liste_biens tr td.photo {
+	width:100px;
+}
+
+
+/* details compte */
+
+
+#transaction_list {
+	border:solid 1px #B82222;
+	font-size:14px;
+	width:100%;
+	border-collapse:collapse;
+}
+
+#transaction_list th {
+	background-color:#FFCC33;
+	border-bottom:solid 1px #B82222;
+	padding:0px 10px;
+}
+
+#transaction_list tr td {
+	padding:0 5px;
+}
+
+#transaction_list tr td.date {
+	text-align:center;
+}
+
+#transaction_list tr td.libelle {
+	text-align:left;
+	width:100%;
+}
+
+#transaction_list tr td.montant, #transaction_list tr td.solde {
+	text-align:right;
+}
+
+#transaction_list tr {
+}
+
+#transaction_list tr.pair td {
+
+}
+
+#transaction_list tr.impair td {
+	background-color:#ffebcd 	;
+}
+
+#transaction_list tr td.report {
+	text-align:right;
+	color:#FFFFFF;
+	background-color:#B82222;
+}

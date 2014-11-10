@@ -1,0 +1,215 @@
+
+#joli {
+	clear:both;
+	color:#FFF8DC !important;
+	font-size:0px !important;
+}
+
+#menu {
+	background:#B82222;
+	font-size:12px !important;
+	text-align:center;
+	color:white;
+}
+
+body {
+	background-color:black;
+	font-family:serif;
+}	
+
+a {
+    text-decoration: none;
+    color: #800000;
+}
+
+a:hover {
+	color:red;
+}
+	
+#page {
+	position: relative;
+	left: 50%;
+	top:0px;
+	width: 650px;
+	margin-left: -325px;
+   color: #a12f07;
+   background: #black ;
+}
+
+#menu ul {
+	padding:2px;
+}
+
+#menu ul li {
+	list-style-type:disc;
+	display:inline;
+	padding:0px 20px;
+	font-style:italic;
+	border-right:solid 1px white;
+}
+
+#menu ul li.last {
+	border-right:none;
+}
+
+#menu ul li.first  {
+	border-left:none;
+}
+
+#menu ul li a {
+	color:#FFFFFF;
+}
+
+#menu ul li a:hover {
+	color:#FFCC33;
+}
+
+#content {
+	width: 648px;
+   border: solid 1px #800000;
+   color: black;
+   background: #FFF8DC ;
+   padding-bottom:40px;
+}
+
+#content div {
+	margin:10px 20px 0px 20px;
+}
+
+#content p {
+	margin:10px 20px 0px 20px;
+	font-size:16px;
+}
+
+h1{
+    width: 650px;
+    height: 100px;
+    background-color: #fcc43b;
+    font-size: 0px;
+    background: url("bannierecourte.png") right;
+	position: relative;
+	left: 50%;
+	top:0px;
+	margin-left: -325px;
+}
+
+h2 {
+     margin: 10px 20px;
+    text-align: left;
+    color:#B82222;
+    font-size:20px;
+}
+
+form table {
+	font-size:14px;
+}
+
+form table tr th {
+	font-weight:bold;
+	text-align:right;
+	padding-right:10px;
+	width:200px;
+	vertical-align:top;
+}
+
+form table tr td input.checkbox {
+	width:16px;
+	height:16px;
+}
+
+form table tr td input.button {
+	width:150px;
+}
+
+form table tr td input  {
+	width:250px;
+}
+
+
+#profil_photo {
+	float:left;
+	width:120px;
+	text-align:right;
+}
+
+#profil_photo img {
+	/*max-width:100%;*/
+	margin-top:10px;
+}
+
+#profil_infos {
+	float:right;
+	width:400px;
+}
+
+
+#profil_infos dl {
+	font-size:14px;
+	margin-top:0px;
+	margin-left:-20px;
+}
+
+#profil_infos dt {
+	font-weight:bold;
+	vertical-align:center;
+}
+
+#profil_infos dd {
+	margin-left:0px;
+	margin-bottom:10px;
+}
+
+
+table.liste_perso_complete {
+	border:solid 1px #B82222;
+	font-size:14px;
+	border-collapse:collapse;
+	width:100%;
+}
+
+table.liste_perso_complete th {
+	background-color:#FFCC33;
+	border-top:solid 1px #B82222;
+	border-bottom:solid 1px #B82222;
+}
+
+table.liste_perso_complete td {
+	/*border:solid 1px #B82222;*/
+	padding:5px;
+}
+
+table.liste_perso_complete img {
+	width:100%;
+}
+
+table.liste_perso_complete select, table.liste_perso_complete optgroup {
+	font-size:12px;
+}
+
+table.liste_perso_complete tr.pair td {
+}
+
+table.liste_perso_complete tr.impair td{
+	background-color:#ffebcd 	;
+}
+
+table.liste_perso_complete tr td.photo {
+	width:90px;
+}
+
+.ville {
+	font-variant:small-caps;
+}
+
+.annee {
+	font-variant:small-caps;
+}
+
+.nom {
+	font-variant:small-caps;
+}
+
+
+address {
+	display:inline;
+}
